@@ -14,5 +14,6 @@ export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
 export DOTNET_GCHeapHardLimit=1C0000000
 " >> /root/.bashrc
 
-wget https://gh.llkk.cc/https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20250522-285/MinecraftClient-20250522-285-linux-arm64 -o MinecraftClient-linux-arm64
+wget https://gh-proxy.top/https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20250522-285/MinecraftClient-20250522-285-linux-arm64 -O MinecraftClient-linux-arm64
+chmod 777 ./MinecraftClient-linux-arm64
 echo '已完成，请输入./MinecraftClient-linux-arm64 以运行' 
